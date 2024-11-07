@@ -7,7 +7,7 @@ npm i line-counter-cli
 # Run the command
 npm line-counter
 
-
+# ==========
 One issue i noticed with this first version is that it counts lines in picture png files(I dont know how that happened)
 but I'd surely fix it by the next release.
 
