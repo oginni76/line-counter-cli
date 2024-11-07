@@ -5,7 +5,9 @@ This program counts the number of lines in your code and returns the total lines
 npm i line-counter-cli
 
 # Run the command
-npm line-counter
+npx line-counter
+
+voila - You get your results 
 
 # ==========
 One issue i noticed with this first version is that it counts lines in picture png files(I dont know how that happened)
