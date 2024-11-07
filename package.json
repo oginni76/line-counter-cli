@@ -1,0 +1,26 @@
+{
+  "name": "line-counter-cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "line-counter": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Emmanuel Oginni",
+  "license": "ISC",
+  "description": "A CLI tool for counting lines of code, comments, and empty lines in a project while ignoring specified files and directories.",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "ignore": "^6.0.2"
+  }
+}
