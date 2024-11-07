@@ -1,5 +1,5 @@
 
-## This program counts the number of lines in your code and returns the total lines, comment, empty and coded lines(ones containing actual code).
+# This program counts the number of lines in your code and returns the total lines, comment, empty and coded lines(ones containing actual code).
 
 
 # Installation 
