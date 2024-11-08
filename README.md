@@ -27,9 +27,9 @@ variable which tells the code whether subsequent lines are part of a block comme
 
 
 ## Folders /Files ignored
-a. Node_modules.
-b. Anything added to gitignore
-c. anything you add to the customexclusions array(For files you want the lines counted but are not in your gitignore)
+1. Node_modules.
+2. Anything added to gitignore. 
+3. anything you add to the customexclusions array(For files you want the lines counted but are not in your gitignore)
 
 
 
