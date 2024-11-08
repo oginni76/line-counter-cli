@@ -9,8 +9,8 @@ npx line-counter
 
 ## How the program works
 It consists of two functions
-The first traverses through your directory(folder) and files to get which would be worked on or ignored
-The second function is what is responsible for counting the lines
+1. The first traverses through your directory(folder) and files to get which would be worked on or ignored
+2. The second function is what is responsible for counting the lines.
 
 
 ## Comments
@@ -27,9 +27,9 @@ variable which tells the code whether subsequent lines are part of a block comme
 
 
 ## Folders /Files ignored
-Node_modules
-Anything added to gitignore
-anything you add to the customexclusions array(For files you want the lines counted but are not in your gitignore)
+a. Node_modules.
+b. Anything added to gitignore
+c. anything you add to the customexclusions array(For files you want the lines counted but are not in your gitignore)
 
 
 
@@ -38,6 +38,7 @@ anything you add to the customexclusions array(For files you want the lines coun
 One issue i noticed with this first version is that it counts lines in picture png files(I dont know how that happened)
 but I'd surely fix it by the next release.
 
+#
 Also since I used typescript I shoudld have declared all the types at the top of the code.
 Might do that later.
 
